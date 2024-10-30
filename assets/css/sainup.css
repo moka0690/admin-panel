@@ -36,38 +36,30 @@ body {
   position: absolute;
   width: 593.68px;
   height: 593.68px;
-  top: 526.86px;
-  right: 446.62px;
+  bottom: 526.86px;
+right:-180.06px ; 
   border-radius: 50%;
   box-shadow: inset 24px 32px 184px 24px#060859BF;
-  transform: translate(571.41px, -593.14px) rotate(90deg);
-  -webkit-transform: translate(571.41px, -593.14px) rotate(90deg);
-  -moz-transform: translate(571.41px, -593.14px) rotate(90deg);
-  -ms-transform: translate(571.41px, -593.14px) rotate(90deg);
-  -o-transform: translate(571.41px, -593.14px) rotate(90deg);
+
 }
 .Circle-2 {
   position: absolute;
   width: 746.64px;
   height: 746.64px;
-  top: 494.02px;
-  left: -239.06px;
-  border-radius: 50%;
+   bottom: 494.02px;
+  right: -239.06px;
+   border-radius: 50%;
   opacity: 0.75;
   transform: rotate(-90deg);
   box-shadow: inset 24px 32px 184px 24px#060859BF;
-  transform: translate(-239px, 654.69px) rotate(90deg);
-  -webkit-transform: translate(-239px, 654.69px) rotate(90deg);
-  -moz-transform: translate(-239px, 654.69px) rotate(90deg);
-  -ms-transform: translate(-239px, 654.69px) rotate(90deg);
-  -o-transform: translate(-239px, 654.69px) rotate(90deg);
+
 }
 .Circle-3 {
   position: absolute;
   width: 996.39px;
   height: 1017.13px;
-  top: 402.42px;
-  right: 229.53px;
+  bottom: 402.42px;
+  right: -268.53px;
   border-radius: 50%;
   opacity: 0.75;
   transform: rotate(-90deg);
@@ -78,8 +70,8 @@ body {
   position: absolute;
   width: 1172.68px;
   height: 1197.74px;
-  top: 258.11px;
-  right: 116px;
+  bottom: 258.11px;
+  right: -354px;
   opacity: 0.75;
   border-radius: 50%;
   box-shadow: inset 24px 32px 184px 24px#060859BF;
@@ -90,8 +82,8 @@ body {
   position: absolute;
   width: 1514.89px;
   height: 1546px;
-  top: 87px;
-  left: -374px;
+ bottom: 87px;
+  right: -354px;
   opacity: 0.75;
   border-radius: 50%;
   transform: rotate(-90deg);
