@@ -39,8 +39,12 @@ body {
   top: 526.86px;
   right: 446.62px;
   border-radius: 50%;
-  transform: rotate(90deg);
   box-shadow: inset 24px 32px 184px 24px#060859BF;
+  transform: translate(571.41px, -593.14px) rotate(90deg);
+  -webkit-transform: translate(571.41px, -593.14px) rotate(90deg);
+  -moz-transform: translate(571.41px, -593.14px) rotate(90deg);
+  -ms-transform: translate(571.41px, -593.14px) rotate(90deg);
+  -o-transform: translate(571.41px, -593.14px) rotate(90deg);
 }
 .Circle-2 {
   position: absolute;
@@ -52,6 +56,11 @@ body {
   opacity: 0.75;
   transform: rotate(-90deg);
   box-shadow: inset 24px 32px 184px 24px#060859BF;
+  transform: translate(-239px, 654.69px) rotate(90deg);
+  -webkit-transform: translate(-239px, 654.69px) rotate(90deg);
+  -moz-transform: translate(-239px, 654.69px) rotate(90deg);
+  -ms-transform: translate(-239px, 654.69px) rotate(90deg);
+  -o-transform: translate(-239px, 654.69px) rotate(90deg);
 }
 .Circle-3 {
   position: absolute;
@@ -63,6 +72,7 @@ body {
   opacity: 0.75;
   transform: rotate(-90deg);
   box-shadow: inset 24px 32px 184px 24px#060859BF;
+  /* transform: translate(571.41px, -593.14px) rotate(90deg); */
 }
 .Circle-4 {
   position: absolute;
@@ -74,6 +84,7 @@ body {
   border-radius: 50%;
   box-shadow: inset 24px 32px 184px 24px#060859BF;
   transform: rotate(-90deg);
+  /* transform: translate(571.41px, -593.14px) rotate(90deg); */
 }
 .Circle-5 {
   position: absolute;
@@ -85,6 +96,7 @@ body {
   border-radius: 50%;
   transform: rotate(-90deg);
   box-shadow: inset 24px 32px 184px 24px#060859BF;
+  /* transform: translate(571.41px, -593.14px) rotate(90deg); */
 }
 .Graphic {
   display: flex;
@@ -117,6 +129,7 @@ body {
   font-size: 33px;
   color: #232d42;
   font-weight: 600;
+  margin-bottom: 40px;
 }
 section {
   display: flex;
@@ -149,53 +162,53 @@ h6 {
   color: #8a92a6;
 }
 .input-box {
-      height: 288px;
-    width: 516px;
-           display: flex;
-        flex-wrap: wrap;
-            }
+  height: 288px;
+  width: 516px;
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .box {
-    height: 69px;
-    width: 516px;
-   display: flex;
-   gap: 16px;
-      }
-    .box-first-name {
-        height: 69px;
-        width: 250px;
-        display: flex;
-        flex-direction: column; 
-        align-items: flex-start;
-           }
-    .box-last-name {
-        height: 69px;
-        width: 250px;
-        display: flex;
-        flex-direction: column; 
-        align-items: flex-start;
-         }
+  height: 69px;
+  width: 516px;
+  display: flex;
+  gap: 16px;
+}
+.box-first-name {
+  height: 69px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.box-last-name {
+  height: 69px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 .first-name {
-    display: block;
-       width: 250px;
+  display: block;
+  width: 250px;
   height: 33px;
   border: solid #3a57e8 1px;
   border-radius: 4px;
   color: #8a92a6;
 }
 .last-name {
-     width: 250px;
-    height: 33px;
-    border: solid #3a57e8 1px;
-    border-radius: 4px;
-    color: #8a92a6;
+  width: 250px;
+  height: 33px;
+  border: solid #3a57e8 1px;
+  border-radius: 4px;
+  color: #8a92a6;
 }
-.phone-no{
-    width: 250px;
-    height: 33px;
-    border: solid #3a57e8 1px;
-    border-radius: 4px;
-    color: #8a92a6;
+.phone-no {
+  width: 250px;
+  height: 33px;
+  border: solid #3a57e8 1px;
+  border-radius: 4px;
+  color: #8a92a6;
 }
 .email {
   width: 250px;
@@ -203,8 +216,8 @@ h6 {
   border: solid #3a57e8 1px;
   border-radius: 4px;
   color: #8a92a6;
-  }
-label{
+}
+label {
   margin-bottom: 8px;
   font-weight: 400;
   font-size: 16px;
@@ -218,13 +231,13 @@ label{
   border: solid #3a57e8 1px;
   border-radius: 4px;
   color: #8a92a6;
- }
-.password-confirmation{
-    width: 250px;
-    height: 33px;
-    border: solid #3a57e8 1px;
-    border-radius: 4px;
-    color: #8a92a6;
+}
+.password-confirmation {
+  width: 250px;
+  height: 33px;
+  border: solid #3a57e8 1px;
+  border-radius: 4px;
+  color: #8a92a6;
 }
 .checkbox {
   display: inline;
@@ -238,13 +251,14 @@ label{
   width: 217px;
   display: block;
   text-align: center;
+  margin-bottom: 0px;
 }
 .box-checkbox {
-    width: 516px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 16px 0px 0px 0px;       
+  width: 516px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px 0px 0px 0px;
 }
 .Forgot-Password {
   margin-left: 160px;
@@ -263,13 +277,12 @@ label{
   font-size: 16px;
   line-height: 28px;
   color: #ffffff;
- margin: 24px 164px 24px 164px;
-
+  margin: 24px 164px 24px 164px;
 }
 .All-means {
   display: block;
   position: relative;
-  margin:  92px 136px 0px 136px;
+  margin: 48px 136px 0px 136px;
   width: 244px;
   height: 112px;
 }
@@ -303,8 +316,8 @@ label{
   margin-left: 2px;
   display: inline-block;
 }
-.sing-in-google {
-  margin-right: 12px;
+.sing-in-google{
+ margin-right: 9.3px;
   display: inline-block;
   height: 24px;
   width: 24px;
@@ -313,13 +326,14 @@ label{
   border-radius: 50%;
 }
 .sing-in-facebook {
-  margin-right: 12px;
-  display: inline-block;
+   display: inline-block;
   height: 24px;
   width: 24px;
   background-image: url(/assets/image/Facebook.png);
   background-size: 24px 24px;
   border-radius: 50%;
+  margin-left: 9.3px;
+  margin-right: 9.3px;
 }
 .sing-in-instagram {
   display: inline-block;
@@ -328,9 +342,11 @@ label{
   background-image: url(/assets/image/Instagram.png);
   background-size: 24px 24px;
   border-radius: 50%;
+  margin-left: 9.3px;
+  margin-right: 9.3px;
 }
 .sing-in-linkedin {
-  margin-left: 12px;
+  margin-left: 9.3px;
   display: inline-block;
   height: 24px;
   width: 24px;
