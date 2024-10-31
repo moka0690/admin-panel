@@ -7,7 +7,7 @@ body {
   display: flex;
   font-family: "Inter";
 }
-.lang-Sign-In {
+/* .lang-Sign-In {
   display: flex;
   background-image: url(/assets/image/background-Page.png);
   background-repeat: no-repeat;
@@ -17,7 +17,7 @@ body {
   top: -298px;
   left: -163px;
   background-position:298px 0px 0px 163px;
-}
+} */
 .lang-Sign-In {
   display: flex;
   height: 1080px;
@@ -95,16 +95,26 @@ right:-180.06px ;
   justify-content: flex-end;
 }
 .form {
-  margin: 234px 262px 244px 262px;
-  height: 436px;
-  width: 602px;
+   height: 1080px;
+   width: 960px;
+   display: flex;
+   background-image: url(/assets/image/Logo-background-signUP.png);
+   background-repeat: no-repeat;
+     background-position:549px -142px ;
+}
+.header-section{
+  display: flex;
+  flex-direction: column;
+  width: 516px;
+  align-items: center
 }
 .logo {
   display: flex;
   height: 43px;
   width: 162px;
   align-items: center;
-  margin-bottom: 40px
+  margin-bottom: 40px;
+  margin-right: 345px;
 }
 .box-img {
   width: 28px;
@@ -129,15 +139,15 @@ section {
   height:649px;
   justify-content: center;
   flex-wrap: wrap;
+  margin: 237px 222px 194px 222px;
 }
 .sing-in-form {
   display: flex;
   justify-content: center;
   width: 197px;
   height: 87px;
-  display: block;
   margin-bottom: 16px;
-}
+ }
 h1 {
   text-align: center;
   font-weight: 600;
